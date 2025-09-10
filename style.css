@@ -1,0 +1,46 @@
+.head{
+    width: fit-content;
+    margin: 0px 600px;
+    background-color: #555533;
+    padding:0px 5px;
+    margin-top: 10px;
+    top: 10px;
+    position:relative
+}
+
+.synapse{
+    margin:0px 450px;
+    width:550px;
+    background-color: transparent;
+    position:relative;
+    top: 10px;
+}
+
+.x{
+    margin-left: 450px;
+    margin-top: 10px;
+    margin-bottom:3px;
+    width:fit-content;
+    background-color: transparent;
+    position:relative;
+    top: 10px;
+}
+
+.inventor{
+    margin-left: 450px;
+    margin-top:0px;
+    width:max-content;
+    background-color: transparent;
+    position:relative;
+    top: 10px;
+}
+
+.square{
+    width:1000vw;
+    height: 150px;
+    margin:0px;
+    padding:0px;
+    background-color: whitesmoke;
+    top: 10px;
+}
+*{background-color:gray}
