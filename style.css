@@ -1,6 +1,6 @@
 .head{
-    width: fit-content;
-    margin: 0px 600px;
+    width:220px;
+    margin: 0px 45vw;
     background-color: #555533;
     padding:0px 5px;
     margin-top: 10px;
@@ -9,7 +9,7 @@
 }
 
 .synapse{
-    margin:0px 450px;
+    margin:0px 37vw;
     width:550px;
     background-color: transparent;
     position:relative;
@@ -17,7 +17,7 @@
 }
 
 .x{
-    margin-left: 450px;
+    margin-left: 37vw;
     margin-top: 10px;
     margin-bottom:3px;
     width:fit-content;
@@ -27,7 +27,7 @@
 }
 
 .inventor{
-    margin-left: 450px;
+    margin-left: 37vw;
     margin-top:0px;
     width:max-content;
     background-color: transparent;
@@ -36,11 +36,27 @@
 }
 
 .square{
-    width:1000vw;
+    width:100vw;
     height: 150px;
     margin:0px;
     padding:0px;
     background-color: whitesmoke;
     top: 10px;
+    left:0px;
+    position:absolute
 }
-*{background-color:gray}
+
+#sadman{
+    width:100vw;
+    margin:0px;
+    padding:0%;
+    height:100vh;
+    background-image: url("pic.jpg");
+    background-size:cover
+    
+}
+
+.chimpken{
+    top:150px;
+    position:relative
+}
