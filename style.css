@@ -1,15 +1,17 @@
 .head{
     width:220px;
-    margin: 0px 45vw;
+    margin: 0px auto;
     background-color: #555533;
     padding:0px 5px;
     margin-top: 10px;
     top: 10px;
-    position:relative
+    position:relative;
+    text-align: center;
+    
 }
 
 .synapse{
-    margin:0px 37vw;
+    margin:0px auto;
     width:550px;
     background-color: transparent;
     position:relative;
@@ -17,7 +19,7 @@
 }
 
 .x{
-    margin-left: 37vw;
+    margin-left: 31vw;
     margin-top: 10px;
     margin-bottom:3px;
     width:fit-content;
@@ -35,7 +37,7 @@
     top: 10px;
 }
 
-.square{
+#square{
     width:100vw;
     height: 150px;
     margin:0px;
@@ -47,16 +49,89 @@
 }
 
 #sadman{
-    width:100vw;
+    width:100%;
     margin:0px;
     padding:0%;
-    height:100vh;
+    height:150vw;
     background-image: url("pic.jpg");
-    background-size:cover
+    background-size:cover;
+    position:absolute;
+    left:0%;
+    top:0%;
+    background-repeat: no-repeat;
+    background-attachment: scroll;
     
 }
 
 .chimpken{
-    top:150px;
+    top:160px;
     position:relative
 }
+
+.blog{
+    margin:0px auto;
+    width:50vw;
+    background-color: white;
+    position:relative;
+    top: 30vh;
+    height: fit-content;
+    min-height: 20vh;
+    border-radius: 3%;
+    padding: 10px;
+    border:#555533 solid 2px;
+}
+.Typebox{
+    width:50%;
+    margin:50px auto;
+    background-color: white;
+    position:relative;
+    top: 25vh;
+    height: fit-content;
+    border-radius: 3%;
+    padding: 10px;
+    border:#555533 solid 2px;
+    opacity: 60%;
+}
+.boxoftext{
+    height: 100px;
+    margin: 0px auto;
+    display: block;
+    position: relative;
+    top: 0px;
+    resize: none;
+    width:100%;
+    right:0.3vw
+}
+
+.blogformat{
+    color: black;
+    text-align: left;
+    position:relative;
+    top: 20vw;
+    margin:50px auto;
+    height: fit-content;
+    width: 50%;
+    overflow-x: hidden;
+    background-color: white;
+    border-radius: 3%;
+    padding: 10px;
+    border:#555533 solid 2px;
+}
+.blogimg{
+    margin: 0px auto;
+    max-width: 80%;
+    display: block;
+    position: relative;
+    top: 10px;
+}
+
+.hyperlinked{
+    text-decoration: none;
+    margin:20px auto;
+    display: block;
+    height: fit-content;
+    width: fit-content;
+    
+}
+
+html{background-color: #37634e;}
